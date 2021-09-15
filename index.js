@@ -104,7 +104,7 @@ function getAverageGoals(getFinalsCb) {
    return (averageHome / getFinalsCb.length).toFixed(2);
 }
 
-console.log('task 6', getAverageGoals())
+console.log('task 6', getAverageGoals(getFinals(fifaData)));
 
 
 /// 🥅 STRETCH 🥅 ///
@@ -115,7 +115,7 @@ Create a function called `getCountryWins` that takes the parameters `data` and `
 Hint: Investigate your data to find "team initials"!
 Hint: use `.reduce` */
 
-function getCountryWins(/* code here */) {
+function getCountryWins() {
 
     /* code here */
 
